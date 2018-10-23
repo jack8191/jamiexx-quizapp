@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+padding: 30px 0;
+}
+
+
+
+/* Clearfix */
+
+header::before,
+header::after {
+    display: table;
+    content: '';
+}
+header::after {
+    clear: both;
+}
+.col-4,
+.col-8 {
+    float: left;
+    padding-left: 1.04166666%;
+    padding-right: 1.04166666%;
+}
+.col-4 {
+    width: 33.33%; 
+}
+.col-8 {
+    width: 66.67%;
+}
+
+
+
+
+
+@media only screen and (min-width: 320px) {
+  
+
+  /* 4 columns, 4/12 in % */
+  .col-4 {
+    width: 33.33%;
+  }
+
+  /* 6 columns 6/12 in % */
+  .col-8 {
+    width: 50%;
+  }
+
+.questionAnswerForm {
+    display: none;
+    width: 50%;
+}
+
+
+
+}
+
+
+
+body {
+  background-image: url("https://fanart.tv/fanart/music/d1515727-4a93-4c0d-88cb-d7a9fce01879/albumcover/ny-is-killing-me-555f22483654b.jpg");
+  background-repeat: no-repeat;
+  background-position: top-right;
+  background-color: black;
+  color: white;
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  margin-left: 20px;
+  margin-right: 20px;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0b.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+a {
+  color:aliceblue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+h1, h2 {
+  font-weight: inherit;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  font: inherit;
+  border: none;
+  color: white;
+  background-color: green;
+  width: 100px;
+  height: 50px;
+  margin-bottom: 25px;
+  display: block;
+  margin-left: 5px;
+}
+
+
+form {
+  background-color: black;
+}
+
+
+p {
+  margin-bottom:20px;
+}
+
+
+
+.answerOption {
+  display: block;
+  margin: 10px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  width: 350px;
+}
+
+
+
+
+
+
+
+
+  
